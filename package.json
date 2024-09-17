@@ -1,0 +1,17 @@
+{
+  "name": "dify-html-selector",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@hono/zod-openapi": "^0.15.3",
+    "cheerio": "^1.0.0",
+    "hono": "^4.5.7",
+    "xpath": "^0.0.34"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "wrangler": "^3.57.2"
+  }
+}
